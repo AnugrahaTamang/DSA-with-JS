@@ -12,3 +12,4 @@ console.log(typeof num) //bigint
 
 let num1 = 122234345555555655555
 console.log(num1)
+
