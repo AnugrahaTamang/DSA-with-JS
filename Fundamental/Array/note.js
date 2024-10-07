@@ -38,5 +38,5 @@ console.log(color)  //Output: [ 'aqua', 'black' ]
 //Flat  used in two dimensional array
 let store = ["apple","banana",[1,2,3],["one","two","three",[100,200,300],"hey"],"apple"]
 console.log(store)
-console.log(store.flat())
+console.log(store.flat(Infinity))
 
