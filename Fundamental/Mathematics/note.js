@@ -5,5 +5,4 @@ console.log(Math.round(12.56));
 console.log(Math.trunc(12.76));
 console.log(Math.sqrt(4));
 console.log((Math.random() * 10).toFixed());
-
 console.log(Math.abs(-12));
