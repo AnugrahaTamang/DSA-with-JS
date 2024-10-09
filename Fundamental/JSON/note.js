@@ -13,3 +13,7 @@ console.log(obj);
 const jsonformatting = JSON.stringify(obj);
 
 console.log(jsonformatting);
+
+//Json formatting to string
+const jsonObject = JSON.parse(jsonformatting);
+console.log(jsonObject);
