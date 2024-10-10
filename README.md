@@ -1,1 +1,1 @@
-<strong>Data strucute and algorithm master class with Javascript</strong>
+<strong>Data structure and algorithm master class with Javascript</strong>
