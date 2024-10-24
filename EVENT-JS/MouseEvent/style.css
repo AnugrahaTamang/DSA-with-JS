@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.one{
+    background-color: gray;
+    color: white;
+}
+.two{
+    background-color: black;
+    color: aqua;
+}
+.three{
+    background-color: aqua;
+    color: rebeccapurple;
+}
+.four{
+    background-color: black;
+    color: white;
+}
+.five{
+    background-color: gold;
+    color: blue;
+}
+.six{
+    background-color: darkblue;
+    color: white;
+}
+.seven{
+    background-color: darkcyan;
+    color: chartreuse;
+}
+.eight{
+    background-color: chartreuse;
+    color: beige;
+}
+.nine{
+    background-color: rgb(12, 7, 7);
+    color: red;
+}
+.ten{
+    background: rebeccapurple;
+    color: black;
+}
