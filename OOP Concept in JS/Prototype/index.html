@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is about the prototype in js</h1>
+
+</body>
+<script>
+    function Animal(name) {
+    this.name = name;
+}
+Animal.prototype.sound = function(){
+    console.log(`Anima sound`);
+}
+
+function Dog(name, breed){
+    this.name = name;
+    this.breed = breed;
+}
+const dog1 = new Dog("Boss", 'Genius')
+const animal1 = new Animal("gai");
+console.log(dog1)
+<!--dog1.sound() It's not accessible--> 
+animal1.sound();
+</script>
+</html>
