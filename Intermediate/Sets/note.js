@@ -51,3 +51,5 @@ console.log(datatwo.next.values)
 const datafour = setone.values()
 console.log(datafour.next().value) //13
 console.log(datafour.next().value) //14
+
+
