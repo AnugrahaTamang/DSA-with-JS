@@ -20,3 +20,20 @@ const addname = arr.map((name) => {
   return `${name + " Tamang"}`;
 });
 console.log(addname);
+
+/* Map Method in js:
+1. set(key,value)
+2. get(key)
+3. delete()
+4. clear()
+5. has()
+6. keys() and values()
+*/
+
+const data = new Map()
+data.set("name", 'saran')
+data.set("age", 22)
+console.log(data)
+console.log(data.get("name"))
+console.log(data.delete("age"))
+console.log(data)
