@@ -37,3 +37,9 @@ console.log(data)
 console.log(data.get("name"))
 console.log(data.delete("age"))
 console.log(data)
+
+const dataone = data.forEach((key,value) => {
+  return `${key}: ${value}`
+})
+console.log(dataone)
+
