@@ -58,3 +58,14 @@ let score1 = 100;
 let score2 = 200;
 let score3 = 300;
 console.log(Array.of(score1, score2, score3)); //Covert variable value into array. [ 100, 200, 300 ]
+
+/* Point to be Noted:
+1. Array Declaration: [] and new Array()
+2. Array iteration : for loop, for of loop and forEach Loop
+3. Array Methods: 
+a. Mutating Methods: push, pop, slice, splice, shift, unshift, sort, reverse
+b. Non-mutating Methods: filter(), map(), reduce()
+c. Search Methods: find(), findIndex(), includes(), indexOf()
+4. Higher order function: map, filter and reduce()
+*/
+
