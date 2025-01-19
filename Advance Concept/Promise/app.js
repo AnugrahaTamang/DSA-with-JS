@@ -1,5 +1,10 @@
 //Promise
 //-Creating a promise
+/* There are three type of stage:
+1. pending
+2. fulfilled
+3. rejected
+*/
 const promiseone = new Promise(function(resolve, reject){
     setTimeout(()=>{
         console.log("Async task is complete");
