@@ -1,7 +1,7 @@
 console.log(a) //undefined : note: it's called the hoisting here store the undefined.
 var a = 123
 console.log(a)
-
+//Variable is temporal date zone
 // console.log(b); //"error"
 let b =123
 
