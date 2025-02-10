@@ -19,8 +19,6 @@ console.log(3>2);
 console.log(3<2);
 console.log(3>=2);
 console.log(3<=2);
-console.log(7>>1);
-console.log(4>>>1)
 console.log(2==2)
 console.log(2===2)
 
@@ -49,6 +47,8 @@ console.log(~-2)
 console.log(~-0)
 console.log(~0)
 console.log(~-1)
+console.log(7>>1);
+console.log(4>>>1)
 
 //Number 6. logical operator
 if (3>2 && 2<4){
