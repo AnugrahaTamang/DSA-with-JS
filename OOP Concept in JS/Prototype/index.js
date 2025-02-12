@@ -20,4 +20,31 @@ let jona = Object.create(person, {
 jona.greet()
 
 
+//Prototype Inheritance
+
+function Person(name, age){
+    this.name = name,
+    this.age = age,
+    this.ParentOne = function(){
+        console.log(`My name is ${this.name}, I am ${this.age } years old`)
+    }
+}
+const PersonTwo = function(name, age, location){
+    Person.call(this, name, age);
+    this.location = location;
+}
+Person.prototype.sound = function(){
+    return "Hello I am from Person"
+}
+PersonTwo.prototype = Object.create(Person.prototype)
+const person11 = new PersonTwo("ramit", 22, "ktm")
+console.log(person11)
+const per = new Person("Anugraha Tamang", 22)
+console.log(person11.sound())
+console.log(per)
+per.ParentOne()
+console.log(per.sound())
+
+
+
 
