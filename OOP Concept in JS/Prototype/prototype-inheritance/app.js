@@ -39,3 +39,4 @@ Dog.prototype = Object.create(Animal.prototype)
 const dog1 = new Dog("Buddy", "Genus")
 console.log(dog1)
 console.log(dog1.sound())
+
