@@ -1,0 +1,2 @@
+<h1>Polymorphism</h1>
+<p>Polymorphism allows objects to be treated as instances of their parent class, even if they are instances of a subclass. This facilitates writing code that works with different types of object in generic way. In javascript polymorphism is achieved through method overriding, where a subclass provides its own implementation of a method that is already defined in the parent class. The code can then use the same method to work with both parent and subclass instances.</p>
