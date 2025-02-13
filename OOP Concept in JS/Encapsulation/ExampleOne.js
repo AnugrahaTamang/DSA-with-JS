@@ -24,4 +24,4 @@ console.log(myObject.decrement())
 console.log(myObject.decrement())
 console.log(myObject.decrement())
 console.log(myObject.decrement())
-console.log(myObject.getCount())
+console.log(myObject.getCount()) //-2
