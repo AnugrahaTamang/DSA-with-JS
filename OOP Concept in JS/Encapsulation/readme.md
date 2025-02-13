@@ -1,0 +1,2 @@
+<h1>Encapsulation</h1>
+<p>Encapsulation is the concept of bundling data (properties) and methods (functions) together within an object, allowing the object to control access to its internal data and behavior. This helps to hide implementation details and expose only necessary interfaces to interact with the object. In javascript, you can achieve encapsulation by using closures, symbols or naming conventions to simulate private members and expose public interfaces.</p>
