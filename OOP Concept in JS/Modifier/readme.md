@@ -1,0 +1,3 @@
+<h1>Modifier</h1>
+<p>Class modifier also known as access modifier or visibility modifiers are keyword in OOP language that define the visibility or accessibility of class members(fields, methods, and nested classes) from other parts of the program. They control the level of encapsulation and help enforce encapsulation principles by restricting direct access to certain class members</p>
+<p>in javascript, class modifiers are used in the context of classes and objects, although javascript does not have traditional access modifiers like some other object-oriented language (e.g java). However, you can achieve similar effects using different conventions and techniques.</p>
