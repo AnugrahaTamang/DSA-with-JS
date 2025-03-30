@@ -1,37 +1,27 @@
-//Concept one
-function Detail(name, age, email, location){
-    this.name = name,
-    this.age = age,
-    this.email = email,
-    this.location = location
-    this.dataileone= function(){
-        console.log(`My name is ${this.name}. I am ${this.age} years old. My email is ${this.email}. I am from ${this.location}`)
-    }
+//Constructor function in javascript are regular functions used with new keyword to create and initialize ojbject with shared
+//properties and methods. They act as blueprint for creating multiple instances of objects with same structure and behaviour.
+
+//Example of constructor function
+function CreateOne(name, age, pl) {
+  (this.name = name),
+    (this.age = age),
+    (this.pl = pl),
+    (this.greet = function () {
+      console.log(
+        `My name is ${this.name}. I am ${this.age}. I love ${this.pl}`
+      );
+    });
+  console.log(this);
 }
-const anu = new Detail("anugraha tamang", 22, "tamang@gmail.com", "USA")
-const jewan = new Detail("jewan", 23, "jewan@gmail.com", "Crosea")
-anu.dataileone()
-jewan.dataileone()
+const one = new CreateOne("anugraha", 22, "python");
+one.greet();
 
-//concept two
+//Built in  constructor
+const arr = new Array("one", "two");
+console.log(arr);
 
-const ramitdetail = {
-    detail: function(){
-        console.log(`My name is ${this.name}. I am ${this.age} years old.`)
-    }
-}
-const ramit = Object.create(ramitdetail)
-ramit.name = "Ramit Tamang"
-ramit.age = 22
-ramit.detail()
+const str = new String("Hello I love Nepal");
+console.log(str);
 
-const num = new Number(12)
-const strone = new String("hello")
-const bool = new Boolean(false)
-const arr = new Array([1,2,3])
-const obj = new Object({name: "anugraha tamang"})
-console.log(num)
-console.log(strone)
-console.log(arr)
-console.log(obj)
-console.log(bool)
+const num = new Number(12);
+console.log(num);
