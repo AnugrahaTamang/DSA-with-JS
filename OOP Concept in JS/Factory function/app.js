@@ -18,4 +18,6 @@ function Hello(name, age) {
 }
 
 const one = Hello("anugraha tamang", 22);
+const two = Hello("ramit", 23);
 one.greet();
+two.greet();
