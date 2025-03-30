@@ -1,41 +1,32 @@
-// Abstract class (providing a blueprint for subclasses)
-class Animal{
-    constructor(name){
-        this.name = name;
-    }
-    //Abstract method (to be implemented by subclasses)
-    makesound(){
-        throw new Error("Method (makesound) must be implemented")
-    }
-
+class One {
+  constructor(name) {
+    this.name = name;
+  }
+  makesound() {
+    throw new Error("Method makesound must be implemented");
+  }
 }
-
-class Dog extends Animal{
-    constructor(name){
-        super(name)
-    }
-
-    //Implementing the abstract method
-    makesound(){
-        return "woff"
-    }
+class Two extends One {
+  constructor(name) {
+    super(name);
+  }
+  //Implementing abstraction
+  makesound() {
+    return `Hello ${this.name}`;
+  }
 }
-
-//concrete subclass 
-class Cat extends Animal{
-    constructor(name){
-        super(name)
-    }
-    makesound(){
-        return "meow"
-    }
+class Three extends One {
+  constructor(name) {
+    super(name);
+  }
+  makesound() {
+    return `My name is ${this.name}`;
+  }
 }
-const dog = new Dog("BUddy")
-console.log(dog.name)
-console.log(dog.makesound())
+const one = new Two("ramit");
+console.log(one);
+console.log(one.makesound());
 
-const cat = new Cat("susy")
-console.log(cat.name)
-console.log(cat.makesound())
-
- 
+const two = new Three("anugraha");
+console.log(two);
+console.log(two.makesound());
